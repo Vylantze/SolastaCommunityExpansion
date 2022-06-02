@@ -70,7 +70,8 @@ internal static class WarlockFeatures
             .SetLevelFeatures(9,
                 EldritchInvocations["AscendantStep"],
                 EldritchInvocations["OtherworldlyLeap"],
-                EldritchInvocations["GiftoftheProtectors"]
+                EldritchInvocations["GiftoftheProtectors"],
+                EldritchInvocations["GiftoftheProtectorsTome"]
             )
             .SetLevelFeatures(12,
                 EldritchInvocations["BondoftheTalisman"]

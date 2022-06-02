@@ -222,7 +222,8 @@ internal static class EldritchInvocationsBuilder
             {"ThiefofFiveFates", SpellDefinitions.Bane},
             {"MiretheMind", SpellDefinitions.Slow},
             {"DreadfulWord", SpellDefinitions.Confusion},
-            {"TrickstersEscape", SpellDefinitions.FreedomOfMovement}
+            {"TrickstersEscape", SpellDefinitions.FreedomOfMovement},
+            {"GiftOfTheProtectorsTome", SpellDefinitions.DeathWard}
         };
 
         // EI that arent valid for game right now
@@ -400,6 +401,7 @@ internal static class EldritchInvocationsBuilder
             "EldritchSmite", // FeatureDefinitionAdditionalDamages.AdditionalDamagePaladinDivineSmite);
             "ThirstingBlade", // FeatureDefinitionAttributeModifiers.AttributeModifierFighterExtraAttack);
             "GiftoftheProtectors", // FeatureDefinitionDamageAffinitys.DamageAffinityHalfOrcRelentlessEndurance);
+            "GiftoftheProtectorsTome",
             "BondoftheTalisman", // FeatureDefinitionPowers.PowerSorakShadowEscape);
             "WitchSight", // FeatureDefinitionSenses.SenseSeeInvisible12;
             "OneWithShadows",
@@ -526,6 +528,9 @@ internal static class EldritchInvocationsBuilder
             .Add(giftoftheProtectorsDamageAffinity);
         ((FeatureDefinitionFeatureSetWithPreRequisites)EldritchInvocations["GiftoftheProtectors"]).Validators
             .SetRange(RequirePactOfTheBlade);
+
+        ((FeatureDefinitionFeatureSetWithPreRequisites)EldritchInvocations["GiftoftheProtectorsTome"]).Validators
+            .SetRange(RequirePactOfTheTome);
 
         ((FeatureDefinitionFeatureSet)EldritchInvocations["BondoftheTalisman"]).FeatureSet
             .Add(FeatureDefinitionPowers.PowerSorakShadowEscape);

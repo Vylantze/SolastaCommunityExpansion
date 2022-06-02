@@ -1029,6 +1029,8 @@ Feature/&GiftoftheEverLivingOnesDescription	Regains the maximum number of hit po
 Feature/&GiftoftheEverLivingOnesTitle	Gift of the Ever-Living Ones
 Feature/&GiftoftheProtectorsDescription	Whenyou are reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, you cant benefit from it until you finish a long rest.
 Feature/&GiftoftheProtectorsTitle	Gift of the Protectors
+Feature/&GiftoftheProtectorsTomeDescription	A new page appears in your Book of Shadows. You can use an action to cast Death Ward once per long rest. If you do, the creature's name appears on that page. The creature's name disappears after 8 hours or if the spell ends.
+Feature/&GiftoftheProtectorsTomeTitle	Gift of Shadow Protection
 Feature/&GnomeCunningFeatureDescription	You have advantage on all Intelligence, Wisdom, and Charisma saves against magic.
 Feature/&GnomeCunningFeatureTitle	Cunning
 Feature/&GnomeNaturalIllusionistDescription	You know the Annoying Bee cantrip. Intelligence is your spellcasting modifier for it.
